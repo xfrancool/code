@@ -61,65 +61,73 @@ const table = [
   },
   {
     id: 10,
-    title: "¿Qué es React JS y cómo instalarlo? | React JS Desde Cero (2021)",
-    iframe:
-      "https://www.youtube.com/embed/videoseries?list=PLvSctTY7FvX_gQP8IbI-zQb8oR_3E445j",
-    canal: "Code Hive",
-  },
-  {
-    id: 11,
-    title: "Resolviendo un examen técnico frontend real y en tiempo real",
-    iframe: "https://www.youtube.com/embed/2-6hEFsXMaU",
-    canal: "Programación Accesible",
-  },
-  {
-    id: 12,
-    title: "Desarrollando Blog en Astro",
-    iframe:
-      "https://www.youtube.com/embed/videoseries?list=PLo5lAe9kQrwoHwcbkdvckGjT0JnwxhAzz",
-    canal: "Fazt Code",
-  },
-  {
-    id: 13,
     title: "JavasCript",
     iframe:
       "https://www.youtube.com/embed/videoseries?list=PLrAw40DbN0l0p5K-fp4hDVCjZgZIQnSSE",
     canal: "Informática DP",
   },
   {
-    id: 14,
+    id: 11,
     title: "React",
     iframe:
       "https://www.youtube.com/embed/videoseries?list=PLrAw40DbN0l0Oz8t6YW710elsz5dro8ec",
     canal: "Informática DP",
   },
   {
-    id: 15,
+    id: 12,
+    title: "¿Qué es React JS y cómo instalarlo? | React JS Desde Cero (2021)",
+    iframe:
+      "https://www.youtube.com/embed/videoseries?list=PLvSctTY7FvX_gQP8IbI-zQb8oR_3E445j",
+    canal: "Code Hive",
+  },
+  {
+    id: 13,
     title: "Vue Js",
     iframe:
       "https://www.youtube.com/embed/videoseries?list=PLrAw40DbN0l2W17aGTqrcER8LvyHhw90M",
     canal: "Informática DP",
   },
   {
-    id: 16,
+    id: 14,
     title: "MongoDB",
     iframe:
       "https://www.youtube.com/embed/videoseries?list=PLrAw40DbN0l1tjWT1Lg2kKxm0eHdpPrDu",
     canal: "Informática DP",
   },
   {
-    id: 17,
+    id: 15,
     title: "Nodejs",
     iframe:
       "https://www.youtube.com/embed/videoseries?list=PLrAw40DbN0l3ZY24DEsp66_jllaWkJaIg",
     canal: "Informática DP",
   },
   {
-    id: 18,
+    id: 16,
     title: "DataTables",
     iframe:
       "https://www.youtube.com/embed/videoseries?list=PLrAw40DbN0l3S_1o1ya45SaWiMnGqboK7",
     canal: "Informática DP",
+  },
+  {
+    id: 17,
+    title:
+      "🔥 CURSO de CSS desde CERO 2021 Para principiantes (COMPLETO y GRATIS)",
+    iframe:
+      "https://www.youtube.com/embed/videoseries?list=PLROIqh_5RZeDbvISffzihyxzqJBt_z3-Z",
+    canal: "Dorian Desings",
+  },
+  {
+    id: 18,
+    title: "Resolviendo un examen técnico frontend real y en tiempo real",
+    iframe: "https://www.youtube.com/embed/2-6hEFsXMaU",
+    canal: "Programación Accesible",
+  },
+  {
+    id: 19,
+    title: "Desarrollando Blog en Astro",
+    iframe:
+      "https://www.youtube.com/embed/videoseries?list=PLo5lAe9kQrwoHwcbkdvckGjT0JnwxhAzz",
+    canal: "Fazt Code",
   },
 ];
 function Template(table) {
