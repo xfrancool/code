@@ -5,8 +5,8 @@ html {
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.1fr 0.1fr 1fr 0.1fr 0.1fr;
-  gap: 15px 0px;
+  grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr;
+  gap: 0px 0px;
 
   align-content: space-between;
   grid-auto-flow: row;
@@ -14,7 +14,6 @@ html {
     "nav nav nav"
     "header header header"
     "section section section"
-    "top top top"
     "pegation pegation pegation"
     "footer footer footer";
 }
@@ -37,16 +36,16 @@ html {
   align-items: center;
 }
 
-.top {
+/* .top {
   grid-area: top;
-}
+} */
 .pegation {
   grid-area: pegation;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .footer {
@@ -370,7 +369,7 @@ h3 {
 }
 /********************/
 .card {
-  margin-bottom: 50px;
+  margin-bottom: 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -388,5 +387,5 @@ h3 {
   border-radius: 20px;
   line-height: 22px;
   border: solid 1px rgba(255, 255, 255, 0.548);
-  margin-bottom: 15px;
+  margin-bottom: 0px;
 }

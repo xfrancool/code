@@ -62,14 +62,14 @@
           </div>
         </div>
 
-        <button
+        <!--  <button
           onclick="topFunction()"
           id="myBtn"
           title="Go to top"
           class="top"
         >
           <ion-icon name="caret-up-circle-outline"></ion-icon>
-        </button>
+        </button> -->
       </section>
 
       <div class="pegation">
@@ -94,27 +94,5 @@
     </div>
     <script src="app.js"></script>
     <script src="table.js"></script>
-    <script>
-      /***********/
-      $(function () {
-        $(".accordion-header").click(function (event) {
-          event.preventDefault();
-          var dis = $(this);
-          var acr_box = dis.closest(".accordion");
-          if (!dis.hasClass("active-accordion")) {
-            acr_box.find(".accordion-header").removeClass("active-accordion");
-            dis.addClass("active-accordion");
-            acr_box
-              .find(".accordion-content")
-              .removeClass("animation_acrd fadeInDown")
-              .hide();
-            dis.next().show().addClass("animation_acrd fadeInDown");
-          } else {
-            dis.removeClass("active-accordion");
-            dis.next().hide();
-          }
-        });
-      });
-    </script>
   </body>
 </html>
