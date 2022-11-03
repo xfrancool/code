@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tips code</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="1.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Nunito&family=Open+Sans&family=Roboto+Mono&family=Secular+One&family=Square+Peg&family=Titillium+Web:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <nav id="menu" class="nav">
+        <input
+          type="checkbox"
+          id="responsive-menu"
+          onclick="updatemenu()"
+        /><label></label>
+        <ul>
+          <li><img src="1.ico" alt="" id="ico" /></li>
+          <li><a href="index.html">Inicio</a></li>
+          <li>
+            <a class="dropdown-arrow" href="#">Programación</a>
+            <ul class="sub-menus">
+              <li><a href="pag1.html">Ver todos</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="header">
+        <h1>
+          Encuentra tips del programador <img src="2.ico" id="icon2" alt="" />
+        </h1>
+      </div>
+
+      <section class="section">
+        <div class="portada">
+          <div class="item_portada">
+            <h1>Codear de forma optima</h1>
+            <a href="pag1.html"
+              ><img src="img/tips1.jpg" alt="" class="img2"
+            /></a>
+          </div>
+          <div class="item_portada">
+            <h1></h1>
+            <a href="#"><img src="" alt="" class="img2" /></a>
+          </div>
+        </div>
+
+        <button
+          onclick="topFunction()"
+          id="myBtn"
+          title="Go to top"
+          class="top"
+        >
+          <ion-icon name="caret-up-circle-outline"></ion-icon>
+        </button>
+      </section>
+
+      <div class="pegation"></div>
+
+      <footer class="footer">
+        <p>
+          &copy; Todos los derechos reservados
+          <a href="https://portafolio-jobs.netlify.app/">Franeli</a>
+        </p>
+      </footer>
+    </div>
+    <script src="app.js"></script>
+    <script>
+      $(function () {
+        $(".accordion-header").click(function (event) {
+          event.preventDefault();
+          var dis = $(this);
+          var acr_box = dis.closest(".accordion");
+          if (!dis.hasClass("active-accordion")) {
+            acr_box.find(".accordion-header").removeClass("active-accordion");
+            dis.addClass("active-accordion");
+            acr_box
+              .find(".accordion-content")
+              .removeClass("animation_acrd fadeInDown")
+              .hide();
+            dis.next().show().addClass("animation_acrd fadeInDown");
+          } else {
+            dis.removeClass("active-accordion");
+            dis.next().hide();
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
