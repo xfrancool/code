@@ -68,48 +68,55 @@ const table = [
   },
   {
     id: 11,
+    title: "Curso JavaScript Moderno",
+    iframe:
+      "https://www.youtube.com/embed/videoseries?list=PL53Yr2HveXAUvEi3NaATqHemf5k4yOXgR",
+    canal: "Jhonatan Martinez Reynoso - AdriSchool Education",
+  },
+  {
+    id: 12,
     title: "React",
     iframe:
       "https://www.youtube.com/embed/videoseries?list=PLrAw40DbN0l0Oz8t6YW710elsz5dro8ec",
     canal: "Informática DP",
   },
   {
-    id: 12,
+    id: 13,
     title: "¿Qué es React JS y cómo instalarlo? | React JS Desde Cero (2021)",
     iframe:
       "https://www.youtube.com/embed/videoseries?list=PLvSctTY7FvX_gQP8IbI-zQb8oR_3E445j",
     canal: "Code Hive",
   },
   {
-    id: 13,
+    id: 14,
     title: "Vue Js",
     iframe:
       "https://www.youtube.com/embed/videoseries?list=PLrAw40DbN0l2W17aGTqrcER8LvyHhw90M",
     canal: "Informática DP",
   },
   {
-    id: 14,
+    id: 15,
     title: "MongoDB",
     iframe:
       "https://www.youtube.com/embed/videoseries?list=PLrAw40DbN0l1tjWT1Lg2kKxm0eHdpPrDu",
     canal: "Informática DP",
   },
   {
-    id: 15,
+    id: 16,
     title: "Nodejs",
     iframe:
       "https://www.youtube.com/embed/videoseries?list=PLrAw40DbN0l3ZY24DEsp66_jllaWkJaIg",
     canal: "Informática DP",
   },
   {
-    id: 16,
+    id: 17,
     title: "DataTables",
     iframe:
       "https://www.youtube.com/embed/videoseries?list=PLrAw40DbN0l3S_1o1ya45SaWiMnGqboK7",
     canal: "Informática DP",
   },
   {
-    id: 17,
+    id: 18,
     title:
       "🔥 CURSO de CSS desde CERO 2021 Para principiantes (COMPLETO y GRATIS)",
     iframe:
@@ -117,17 +124,38 @@ const table = [
     canal: "Dorian Desings",
   },
   {
-    id: 18,
+    id: 19,
     title: "Resolviendo un examen técnico frontend real y en tiempo real",
     iframe: "https://www.youtube.com/embed/2-6hEFsXMaU",
     canal: "Programación Accesible",
   },
   {
-    id: 19,
+    id: 20,
     title: "Desarrollando Blog en Astro",
     iframe:
       "https://www.youtube.com/embed/videoseries?list=PLo5lAe9kQrwoHwcbkdvckGjT0JnwxhAzz",
     canal: "Fazt Code",
+  },
+  {
+    id: 21,
+    title: "Reel Js",
+    iframe:
+      "https://www.youtube.com/embed/videoseries?list=PLrcsnb6QBvid1u6fhzE7WHSLxWTnigllr",
+    canal: "one minute coder",
+  },
+  {
+    id: 22,
+    title: "JAVASCRIPT FOR BEGINNERS",
+    iframe:
+      "https://www.youtube.com/embed/videoseries?list=PLrcsnb6QBvid1eW5vqA8o2tWmFSvjFZZF",
+    canal: "one minute coder",
+  },
+  {
+    id: 23,
+    title: "JavaScript Shorts",
+    iframe:
+      "https://www.youtube.com/embed/videoseries?list=PLrcsnb6QBvidMThXOx0iaeyckC21zPit-",
+    canal: "one minute coder",
   },
 ];
 function Template(table) {
